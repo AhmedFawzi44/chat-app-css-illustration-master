@@ -40,7 +40,7 @@ body {
 .background {
     height: 90vh;
     width: 80vh;
-    background-color: var(--Light-Violet);
+    background-image: linear-gradient( var(--Light-Magenta), var(--Light-Violet));
     position: absolute;
     left: -200px;
     border-radius: 0 0 50% 50%;
@@ -65,8 +65,8 @@ body {
     padding: 20px;
     position: relative;
     border-radius: 50px;
-    background-color: var(--Light-Grayish-Violet);
-    box-shadow: 0 10px 20px var(--Grayish-Blue);
+    background-color: white;
+    box-shadow: 20px 26px 30px -25px var(--Dark-Grayish-Violet);  
 }
 
 .iphone::before {
@@ -130,7 +130,7 @@ body {
 }
 
 .message {
-    background-color: var(--Light-Grayish-Violet);
+    background-color: var(--Grayish-Blue);
     border-radius: 12px;
     padding: 7px;
     width: 60%;
@@ -173,7 +173,7 @@ body {
 }
 
 .reply {
-    background-color: var(--Light-Grayish-Violet);
+    background-color: var(--Grayish-Blue);
     width: fit-content;
     padding: 7px;
     border-radius: 12px;
