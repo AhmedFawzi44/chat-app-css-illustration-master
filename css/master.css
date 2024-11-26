@@ -171,7 +171,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #ECE6F2;
 }
 
 .reply {
