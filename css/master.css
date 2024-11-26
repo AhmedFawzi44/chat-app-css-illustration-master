@@ -173,7 +173,7 @@ body {
 }
 
 .reply {
-    background-color: var(--Grayish-Blue);
+    background-color: #ECE6F2;
     width: fit-content;
     padding: 7px;
     border-radius: 12px;
