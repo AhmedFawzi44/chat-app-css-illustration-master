@@ -51,11 +51,11 @@ body {
     display: grid;
     grid-template-columns: 350px auto;
     margin: auto 15%;
-    position: absolute;
+    /* position: absolute; */
     /* width: 940px; */
     /* left: 50%; */
     top: 50%;
-    transform: translatey(-50%);
+    /* transform: translatey(-50%); */
     /* transform: translate(-50%, -50%); */
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .message {
-    background-color: var(--Grayish-Blue);
+    background-color: #ECE6F2;
     border-radius: 12px;
     padding: 7px;
     width: 60%;
@@ -169,7 +169,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: var(--Desaturated-Dark-Violet);
+    background-color: #ECE6F2;
 }
 
 .reply {
@@ -262,8 +262,12 @@ body {
         margin: auto 20%;
     }
 }
-
-@media (max-width:1200px) {
+@media (max-width:992px){
+    .design{
+        margin: auto 6%;
+    }
+}
+@media (max-width:768px) {
     body {
         justify-content: center;
         height: 125vh;
@@ -273,6 +277,7 @@ body {
         grid-template-columns: 350px;
         top: 50px;
         transform: none;
+        margin: 50px 10%;
     }
 
     .bio {
@@ -300,7 +305,7 @@ body {
 @media (max-width:576px) {
     .design {
         grid-template-columns: minmax(250px, 350px);
-        margin: auto 4%;
+        margin: 50px 4%;
     }
 
     .bio {
